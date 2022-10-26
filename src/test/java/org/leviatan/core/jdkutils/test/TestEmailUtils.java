@@ -24,8 +24,8 @@ public final class TestEmailUtils {
 
         EmailUtils.enableEmailSending();
 
-        final EmailData emailData = new EmailData("aaa@ainia.es", "aciudad@ainia.es", "prueba de email", "cuerpo de la prueba de email");
-        final String host = "nombres.ainia.es";
+        final EmailData emailData = new EmailData("aaa@leviatan.org", "aciudad@leviatan.org", "prueba de email", "cuerpo de la prueba de email");
+        final String host = "nombres.leviatan.org";
         EmailUtils.sendEmail(host, emailData);
     }
 }
